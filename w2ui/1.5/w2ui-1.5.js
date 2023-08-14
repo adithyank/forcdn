@@ -429,7 +429,7 @@ var w2utils = (function ($) {
         var options = {
             minimumFractionDigits : fraction,
             maximumFractionDigits : fraction,
-            useGrouping : useGrouping
+            useGrouping : true
         };
         if (fraction == null || fraction < 0) {
             options.minimumFractionDigits = 0;
